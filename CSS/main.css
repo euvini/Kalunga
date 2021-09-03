@@ -1,6 +1,25 @@
-@import url(./bootstrap.min.css);
-@import url(./config.css);
-@import url(./global.css);
-@import url(./custom.css);
-@import url(./responsive.css);
+body, html {
+    background-color: #2B2828;
+}
 
+.banner{
+    width: 375px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleControls {
+    width: 350px;
+    height: 400px;
+}
+
+.box{
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
