@@ -9,41 +9,58 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/main.css" />
 
-    <title>Kalunga</title>
+    <title>Kalunga - Papelaria, Materiais de Escritório e Informática</title>
 </head>
 
 <body>
 
     <!-- Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" width="100%">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="Assets/logo/kalunga-logo.png" alt="kalunga-logo" width="150" height="40">
-            </a>
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Digite aqui sua busca"
-                    aria-label="Input group example" aria-describedby="btnGroupAddon">
-                <div class="input-group-text" id="btnGroupAddon">@</div>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="nav ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">MINHA CONTA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CARTUCHOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ASSINATURAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CARRINNHO</a>
-                    </li>
-                </ul>
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md-auto">
+                    <a class="navbar-brand" href="#">
+                        <img src="Assets/logo/kalunga-logo.png" alt="kalunga-logo" width="150" height="40">
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Digite aqui sua busca"
+                            aria-label="Input group example" aria-describedby="btnGroupAddon">
+
+                        <div class="input-group-text" id="btnGroupAddon">
+                            <a href="#" class="nav-link">
+                                <img src="Assets/icon/icon1.png" alt="lupa-kalunga" width="19px" height="19">
+                            </a>
+                        </div>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-md-auto">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="nav ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MINHA CONTA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CARTUCHOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ASSINATURAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    MEU CARRINHO
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -100,58 +117,20 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_03.png" class="card-img-top" alt="...">
-
+                    <a href="#">
+                        <img src="Assets/BOX/images/BOX_03.png" class="card-img-top" alt="...">
+                    </a>
                 </div>
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_05.png" class="card-img-top" alt="...">
-
+                    <a href="#">
+                        <img src="Assets/BOX/images/BOX_05.png" class="card-img-top" alt="...">
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_01.png" class="card-img-top" alt="...">
 
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_03.png" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_05.png" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_01.png" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_03.png" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="Assets/BOX/images/BOX_05.png" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Fim do CARDS -->
 
 
@@ -163,6 +142,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8707bb973.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

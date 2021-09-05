@@ -7,10 +7,25 @@ body, html {
     background-color: #2B2828;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: none;
+  }
+
 .navbar{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+}
+
+#btnGroupAddon{
+    background-color: #FF8400;
 }
 
 .banner{
