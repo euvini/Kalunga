@@ -28,8 +28,10 @@ body, html {
     background-color: #FF8400;
 }
 
-.banner{
-    width: 100%;
+.banner {
+    background-image: url("/Assets/banner/BANNER-1110.png");
+    width: 1110px;
+    height: 280px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -38,14 +40,65 @@ body, html {
     margin-bottom: 10px;
 }
 
+
 #carrossel {
     width: 1130px;
 }
 
-.cards {
+#carrossel-mobile {
+    display: none;
+}
+
+#custom-cards {
     width: 1130px;
 }
 .card{
     background: none;
     border: none;
 }
+
+#card-mobile {
+    display: none;
+}
+
+
+/*responsive */
+
+@media (max-width: 767px) {
+
+    .banner {
+        background-image: url("/Assets/banner/BANNER-MOBILE.png");
+        background-repeat: no-repeat; /* Do not repeat the image */
+        width: 375px;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    #carrossel {
+        display: none;
+    }
+    #carrossel-mobile {
+        display: block;
+        width: 350px;
+        height: 400px;
+    }
+
+    #custom-cards{
+        display: none;
+    }
+
+    #card-mobile {
+        display: block;
+        width: 350px;
+        height: 300px;
+    }
+   
+   
+}
+
+

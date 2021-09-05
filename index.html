@@ -15,7 +15,7 @@
 <body>
 
     <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" width="100%">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark thumbnail" width="100%">
         <div class="container justify-content-center">
             <div class="row">
                 <div class="col-md-auto">
@@ -40,7 +40,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div class="col-md-auto">
+                <div class="col">
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="nav ">
                             <li class="nav-item">
@@ -68,16 +68,14 @@
 
     <!-- Banner -->
 
-    <div class="container-fluid banner">
-        <a>
-            <img src="Assets/banner/BANNER-1110.png" />
-        </a>
+    <div class="container banner">
+        
     </div>
 
     <!-- Fim Banner -->
 
     <!-- Carrossel Slider -->
-    <div class="container" id="carrossel">
+    <div class="container thumbnail" id="carrossel">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -105,8 +103,37 @@
 
     <!-- Fim do Carrossel Slider -->
 
+    <!-- Carrossel Slider Mobile -->
+    <div class="container" id="carrossel-mobile">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Assets/sliders/SLIDER 1-MOBILE.png" class="d-block w-100" alt="cadeiras">
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/sliders/SLIDER-2-MOBILE.png" class="d-block w-100" alt="noteboooks">
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/sliders/SLIDER-3-MOBILE.png" class="d-block w-100" alt="papelaria">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Fim do Carrossel Slider Mobile -->
+
     <!-- CARDS -->
-    <div class="container cards">
+    <div class="container" id="custom-cards">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100">
@@ -130,8 +157,36 @@
                 </div>
             </div>
         </div>
+    </div>
 
     <!-- Fim do CARDS -->
+    <!-- CARDS MOBILE -->
+    <div class="container" id="card-mobile">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="Assets/BOX/images/BOX1-SM.png" class="card-img-top" alt="...">
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="Assets/BOX/images/BOX2-SM.png" class="card-img-top" alt="...">
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="#">
+                        <img src="Assets/BOX/images/BOX3-SM.png" class="card-img-top" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Fim do CARDS MOBILE-->
 
 
 
