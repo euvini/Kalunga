@@ -16,16 +16,43 @@
 
     <!-- Barra de Navegação -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
-        <div class="componentheader__nav componentheader__bg--black row w-100 align-items-center px-0 pt-2 pt-lg-0 mx-0 pb-0"
-            width="100%">
-            <div class="row">
-                <div class="col-md-auto">
-                    <a class="navbar-brand" href="#">
-                        <img src="Assets/logo/kalunga-logo.png" id="kalunga-logo" alt="kalunga-logo" width="150"
-                            height="40">
-                    </a>
+        <div class=" row w-100 align-items-center px-0 pt-2 pt-lg-0 mx-0 pb-0" width="100%">
+
+            <div class="row row-cols-auto d-flex justify-content-between">
+                <a class="navbar-brand" href="#">
+                    <img src="Assets/logo/kalunga-logo.png" id="kalunga-logo" alt="kalunga-logo" width="150"
+                        height="40">
+                </a>
+
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MINHA CONTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARTUCHOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ASSINATURAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                MEU CARRINHO
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+
+            
                 <div class="componentheader__column col-12 col-lg order-3 order-lg-2 pt-2 pb-2">
                     <div class="componentheader__row row">
                         <div class="input-group">
@@ -41,33 +68,10 @@
                     </div>
 
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="col-md-auto">
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                        <ul class="nav ">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">MINHA CONTA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CARTUCHOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ASSINATURAS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <i class="fas fa-shopping-cart"></i>
-                                    MEU CARRINHO
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            
+
+
         </div>
     </nav>
     <!-- Fim da Barra de Navegação -->
